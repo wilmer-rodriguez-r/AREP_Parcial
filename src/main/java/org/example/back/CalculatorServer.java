@@ -19,7 +19,6 @@ public class CalculatorServer extends Thread {
     }
 
     public static void main(String[] args) throws IOException, InvocationTargetException, NoSuchMethodException, IllegalAccessException {
-        System.out.println(quicksort(new double[]{2.4, 2.2, 2.3}));
         ServerSocket serverSocket = null;
         try {
             serverSocket = new ServerSocket(35000);
@@ -115,5 +114,6 @@ public class CalculatorServer extends Thread {
                 return i;
             }
         }
+        throw new RuntimeException();
     }
 }

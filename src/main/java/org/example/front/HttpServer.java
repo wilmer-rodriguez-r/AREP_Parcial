@@ -73,10 +73,10 @@ public class HttpServer extends Thread {
                 "        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n" +
                 "    </head>\n" +
                 "    <body>\n" +
-                "        <h1>Form with GET</h1>\n" +
+                "        <h1>Calculadora</h1>\n" +
                 "        <form action=\"/hello\">\n" +
                 "            <label for=\"name\">Name:</label><br>\n" +
-                "            <input type=\"text\" id=\"name\" name=\"name\" value=\"John\"><br><br>\n" +
+                "            <input type=\"text\" id=\"name\" name=\"name\" value=\"sin(0.1)\"><br><br>\n" +
                 "            <input type=\"button\" value=\"Submit\" onclick=\"loadGetMsg()\">\n" +
                 "        </form> \n" +
                 "        <div id=\"getrespmsg\"></div>\n" +
